@@ -3,32 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
-header, .section-head, .nav-bar, .about, .link1, .link2, footer {
+header, .section-head, .nav-bar, .about, .link-one, .link-two, footer {
     background-color: gray; 
     margin: 20px 10px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-header h3 {
+header {
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .section-head {
-    height: 25vh;
+    padding:100px 0;
 }
 .nav-bar{
-    height: 50px;
-    width: 30%; 
+    padding: 20px 0;
+    width: 25%; 
 }
 nav {
     display: flex;
 }
 .about {
-    height: 70vh;
-    width: 50%;
+    padding:70px 0;
+    width: 60%;
 }
 main {
     display: flex;
@@ -36,11 +36,11 @@ main {
 .links {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
 }
-.link1, .link2 {
-    height: 32vh;
+.link-one, .link-two {
+    padding:100px 0;
 }
 footer {
-    height:30vh;
+    padding:100px 0;
 }
